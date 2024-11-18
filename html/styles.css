@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;height: 100vh;
+    background-color: deepskyblue
+}
+.f{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 8px;
+    padding: 20px;
+}
+.reg form h2{
+text-align: center;
+color: deeppink;
+margin-bottom: 20px;
+}
+.reg form label{
+    color: #555;display: block;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+.reg form input{
+    border-color: black;
+    outline: none;
+}
+.reg form button{
+    width: 100%;
+    padding: 10px;
+    background-color: #4a90e2;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+}
